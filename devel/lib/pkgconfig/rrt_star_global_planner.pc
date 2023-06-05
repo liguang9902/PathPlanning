@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Nav_ws/devel
+
+Name: rrt_star_global_planner
+Description: Description of rrt_star_global_planner
+Version: 0.0.0
+Cflags: -I/home/ubuntu/Nav_ws/src/rrt_star_global_planner/include
+Libs: -L${prefix}/lib -lrrt_star_global_planner
+Requires: nav_core roscpp rospy std_msgs

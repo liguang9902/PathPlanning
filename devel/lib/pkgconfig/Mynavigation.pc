@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Nav_ws/devel
+
+Name: Mynavigation
+Description: Description of Mynavigation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+<launch>
+    
+    <include file="$(find rrt_star_global_planner)/launch/nav01_slam.launch" />
+    
+    <include file="$(find rrt_star_global_planner)/launch/nav05_path.launch" />
+    
+   
+</launch>
