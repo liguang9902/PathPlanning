@@ -5,7 +5,7 @@
         <rosparam file="$(find rrt_star_global_planner)/param/costmap_common_params.yaml" command="load" ns="local_costmap" />
         <rosparam file="$(find rrt_star_global_planner)/param/local_costmap_params.yaml" command="load" />
         <rosparam file="$(find rrt_star_global_planner)/param/global_costmap_params.yaml" command="load" />
-        <rosparam file="$(find rrt_star_global_planner)/param/A_base_local_planner_params.yaml" command="load" />
+        <rosparam file="$(find rrt_star_global_planner)/param/DWA_RRT_local_planner_params.yaml" command="load" />
     </node>
 
 </launch>

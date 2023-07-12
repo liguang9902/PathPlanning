@@ -1,0 +1,55 @@
+<launch>
+
+    <arg name="global_planner" default="jps" />
+    <!-- local planner name -->
+    <arg name="local_planner" default="dwa" />
+
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen" clear_params="true">
+        <param name="base_global_planner" value="graph_planner/GraphPlanner"
+            if="$(eval arg('global_planner')=='a_star'
+                    or arg('global_planner')=='jps' 
+                    or arg('global_planner')=='gbfs'
+                    or arg('global_planner')=='dijkstra'
+                    or arg('global_planner')=='d_star'
+                    or arg('global_planner')=='lpa_star'
+                    or arg('global_planner')=='d_star_lite')" />
+        <param name="GraphPlanner/planner_name" value="$(arg global_planner)"
+            if="$(eval arg('global_planner')=='a_star'
+                    or arg('global_planner')=='jps' 
+                    or arg('global_planner')=='gbfs'
+                    or arg('global_planner')=='dijkstra'
+                    or arg('global_planner')=='d_star'
+                    or arg('global_planner')=='lpa_star'
+                    or arg('global_planner')=='d_star_lite')" />
+
+        <!-- sample search -->
+        <param name="base_global_planner" value="sample_planner/SamplePlanner"
+            if="$(eval arg('global_planner')=='rrt'
+                    or arg('global_planner')=='rrt_star'
+                    or arg('global_planner')=='informed_rrt'
+                    or arg('global_planner')=='rrt_connect')" />
+        <param name="SamplePlanner/planner_name" value="$(arg global_planner)"
+            if="$(eval arg('global_planner')=='rrt'
+                    or arg('global_planner')=='rrt_star'
+                    or arg('global_planner')=='informed_rrt'
+                    or arg('global_planner')=='rrt_connect')" />
+
+        <!-- <param name="base_local_planner" value="dwa_planner/DWAPlanner"
+            if="$(eval arg('local_planner')=='dwa')" /> -->
+        <!-- <rosparam file="$(find sim_env)/config/planner/dwa_planner_params.yaml" command="load"
+            if="$(eval arg('local_planner')=='dwa')" />
+
+        <param name="base_local_planner" value="pid_planner/PIDPlanner"
+            if="$(eval arg('local_planner')=='pid')" />
+        <rosparam file="$(find sim_env)/config/planner/pid_planner_params.yaml" command="load"
+            if="$(eval arg('local_planner')=='pid')" /> -->
+
+        <rosparam file="$(find rrt_star_global_planner)/param/costmap_common_params.yaml" command="load" ns="global_costmap" />
+        <rosparam file="$(find rrt_star_global_planner)/param/costmap_common_params.yaml" command="load" ns="local_costmap" />
+        <rosparam file="$(find rrt_star_global_planner)/param/local_costmap_params.yaml" command="load" />
+        <rosparam file="$(find rrt_star_global_planner)/param/global_costmap_params.yaml" command="load" />
+        <rosparam file="$(find rrt_star_global_planner)/param/graph_planner_params.yaml" command="load" />
+        <rosparam file="$(find rrt_star_global_planner)/param/JPS_TEB_planner_params.yaml" command="load" />
+    </node>
+
+</launch>

@@ -43,7 +43,7 @@
     <!-- <node pkg="rviz" type="rviz" name="rviz" /> -->
     
     
-    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find rrt_star_global_planner)/rviz/gmapping.rviz"/>
+    <!-- <node pkg="rviz" type="rviz" name="rviz" args="-d $(find rrt_star_global_planner)/rviz/gmapping.rviz"/> -->
     
    
 </launch>
