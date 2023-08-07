@@ -13,13 +13,13 @@ TebLocalPlannerROS:
   # Trajectoty 这部分主要是用于调整轨迹
   teb_autosize: True #优化期间允许改变轨迹的时域长度
   dt_ref: 0.3 #期望的轨迹时间分辨率
-  dt_hysteresis: 0.03 #根据当前时间分辨率自动调整大小的滞后现象，通常约为。建议使用dt ref的10%
+  dt_hysteresis: 0.1 #根据当前时间分辨率自动调整大小的滞后现象，通常约为。建议使用dt ref的10%
   #覆盖全局规划器提供的局部子目标的方向;规划局部路径时会覆盖掉全局路径点的方位角,
   #对于车辆的2D规划,可以设置为False,可实现对全局路径的更好跟踪。
   global_plan_overwrite_orientation: True
 #指定考虑优化的全局计划子集的最大长度,如果为0或负数：禁用；长度也受本地Costmap大小的限制
   max_global_plan_lookahead_dist: 3.0
-  feasibility_check_no_poses: 1 #检测位姿可到达的时间间隔，default：4
+  feasibility_check_no_poses: 3 #检测位姿可到达的时间间隔，default：4
   #如果为true，则在目标落后于起点的情况下，可以使用向后运动来初始化基础轨迹
   #(仅在机器人配备了后部传感器的情况下才建议这样做）
   allow_init_with_backwards_motion: False
@@ -50,14 +50,17 @@ TebLocalPlannerROS:
     # rear_radius: 0.2 # for type "two_circles"
     # vertices: [ [0.25, -0.05], [0.18, -0.05], [0.18, -0.18], [-0.19, -0.18], [-0.25, 0], [-0.19, 0.18], [0.18, 0.18], [0.18, 0.05], [0.25, 0.05] ] # for type "polygon"
   # GoalTolerance
+  # footprint_model:
+  #   type: "polygon"
+  #   vertices: [[0.3, 0.336], [0.3, -0.336], [-0.3, -0.336], [-0.3, 0.336]]
   footprint_model:
-    type: "polygon"
-    vertices: [[0.3, 0.336], [0.3, -0.336], [-0.3, -0.336], [-0.3, 0.336]]
+    type: "circular"
+    radius: 0.25
   xy_goal_tolerance: 0.1
   yaw_goal_tolerance: 1.0
   #自由目标速度。设为False时，车辆到达终点时的目标速度为0。
   #TEB是时间最优规划器。缺少目标速度约束将导致车辆“全速冲线”
-  free_goal_vel: True
+  free_goal_vel: False
   # complete_global_plan: True
   # Obstacles
   min_obstacle_dist: 0.2 # 与障碍的最小期望距离,
@@ -80,13 +83,13 @@ TebLocalPlannerROS:
   weight_kinematics_forward_drive: 0.1 #1
   weight_kinematics_turning_radius: 1 #1
   weight_optimaltime: 1
-  weight_obstacle: 10 #50
+  weight_obstacle: 70 #50
   weight_dynamic_obstacle: 10 # not in use yet
   alternative_time_cost: False # not in use yet
   selection_alternative_time_cost: False
   # Homotopy Class Planner
-  enable_homotopy_class_planning: False
-  enable_multithreading: False
+  enable_homotopy_class_planning: True
+  enable_multithreading: True
   simple_exploration: False
   max_number_classes: 4
   roadmap_graph_no_samples: 15

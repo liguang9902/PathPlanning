@@ -389,12 +389,12 @@ gtest/googlemock/gtest/preinstall:
 gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num= "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num=55 "Built target gtest_main"
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 0
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/rule
@@ -979,7 +979,7 @@ map_server/CMakeFiles/map_server.dir/all: map_server/CMakeFiles/nav_msgs_generat
 map_server/CMakeFiles/map_server.dir/all: map_server/CMakeFiles/map_server_image_loader.dir/all
 	$(MAKE) -f map_server/CMakeFiles/map_server.dir/build.make map_server/CMakeFiles/map_server.dir/depend
 	$(MAKE) -f map_server/CMakeFiles/map_server.dir/build.make map_server/CMakeFiles/map_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num=59 "Built target map_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num= "Built target map_server"
 .PHONY : map_server/CMakeFiles/map_server.dir/all
 
 # Include target in all.
@@ -989,7 +989,7 @@ all: map_server/CMakeFiles/map_server.dir/all
 
 # Build rule for subdir invocation for target.
 map_server/CMakeFiles/map_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 map_server/CMakeFiles/map_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 0
 .PHONY : map_server/CMakeFiles/map_server.dir/rule
@@ -4812,7 +4812,7 @@ fake_localization/CMakeFiles/fake_localization.dir/all: amcl/CMakeFiles/actionli
 fake_localization/CMakeFiles/fake_localization.dir/all: amcl/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
 	$(MAKE) -f fake_localization/CMakeFiles/fake_localization.dir/build.make fake_localization/CMakeFiles/fake_localization.dir/depend
 	$(MAKE) -f fake_localization/CMakeFiles/fake_localization.dir/build.make fake_localization/CMakeFiles/fake_localization.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num=43 "Built target fake_localization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num= "Built target fake_localization"
 .PHONY : fake_localization/CMakeFiles/fake_localization.dir/all
 
 # Include target in all.
@@ -4822,7 +4822,7 @@ all: fake_localization/CMakeFiles/fake_localization.dir/all
 
 # Build rule for subdir invocation for target.
 fake_localization/CMakeFiles/fake_localization.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 fake_localization/CMakeFiles/fake_localization.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 0
 .PHONY : fake_localization/CMakeFiles/fake_localization.dir/rule
@@ -5690,12 +5690,12 @@ costmap_2d/CMakeFiles/inflation_tests.dir/all: costmap_2d/CMakeFiles/layers.dir/
 costmap_2d/CMakeFiles/inflation_tests.dir/all: costmap_2d/CMakeFiles/costmap_2d.dir/all
 	$(MAKE) -f costmap_2d/CMakeFiles/inflation_tests.dir/build.make costmap_2d/CMakeFiles/inflation_tests.dir/depend
 	$(MAKE) -f costmap_2d/CMakeFiles/inflation_tests.dir/build.make costmap_2d/CMakeFiles/inflation_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num=55 "Built target inflation_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num= "Built target inflation_tests"
 .PHONY : costmap_2d/CMakeFiles/inflation_tests.dir/all
 
 # Build rule for subdir invocation for target.
 costmap_2d/CMakeFiles/inflation_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 costmap_2d/CMakeFiles/inflation_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 0
 .PHONY : costmap_2d/CMakeFiles/inflation_tests.dir/rule
@@ -7459,12 +7459,12 @@ costmap_2d/CMakeFiles/costmap_tester.dir/all: voxel_grid/CMakeFiles/voxel_grid.d
 costmap_2d/CMakeFiles/costmap_tester.dir/all: costmap_2d/CMakeFiles/costmap_2d.dir/all
 	$(MAKE) -f costmap_2d/CMakeFiles/costmap_tester.dir/build.make costmap_2d/CMakeFiles/costmap_tester.dir/depend
 	$(MAKE) -f costmap_2d/CMakeFiles/costmap_tester.dir/build.make costmap_2d/CMakeFiles/costmap_tester.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num=39 "Built target costmap_tester"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num= "Built target costmap_tester"
 .PHONY : costmap_2d/CMakeFiles/costmap_tester.dir/all
 
 # Build rule for subdir invocation for target.
 costmap_2d/CMakeFiles/costmap_tester.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 costmap_2d/CMakeFiles/costmap_tester.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 0
 .PHONY : costmap_2d/CMakeFiles/costmap_tester.dir/rule
@@ -7766,12 +7766,12 @@ costmap_2d/CMakeFiles/footprint_tests.dir/all: voxel_grid/CMakeFiles/voxel_grid.
 costmap_2d/CMakeFiles/footprint_tests.dir/all: costmap_2d/CMakeFiles/costmap_2d.dir/all
 	$(MAKE) -f costmap_2d/CMakeFiles/footprint_tests.dir/build.make costmap_2d/CMakeFiles/footprint_tests.dir/depend
 	$(MAKE) -f costmap_2d/CMakeFiles/footprint_tests.dir/build.make costmap_2d/CMakeFiles/footprint_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num= "Built target footprint_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num=43 "Built target footprint_tests"
 .PHONY : costmap_2d/CMakeFiles/footprint_tests.dir/all
 
 # Build rule for subdir invocation for target.
 costmap_2d/CMakeFiles/footprint_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 costmap_2d/CMakeFiles/footprint_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 0
 .PHONY : costmap_2d/CMakeFiles/footprint_tests.dir/rule
@@ -7869,7 +7869,7 @@ base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest_line_iterator.d
 
 # Build rule for subdir invocation for target.
 base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest_line_iterator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest_line_iterator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 0
 .PHONY : base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest_line_iterator.dir/rule
@@ -7896,12 +7896,12 @@ clean: base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest_line_ite
 base_local_planner/CMakeFiles/line_iterator.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f base_local_planner/CMakeFiles/line_iterator.dir/build.make base_local_planner/CMakeFiles/line_iterator.dir/depend
 	$(MAKE) -f base_local_planner/CMakeFiles/line_iterator.dir/build.make base_local_planner/CMakeFiles/line_iterator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num= "Built target line_iterator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num=59 "Built target line_iterator"
 .PHONY : base_local_planner/CMakeFiles/line_iterator.dir/all
 
 # Build rule for subdir invocation for target.
 base_local_planner/CMakeFiles/line_iterator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 base_local_planner/CMakeFiles/line_iterator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 0
 .PHONY : base_local_planner/CMakeFiles/line_iterator.dir/rule
@@ -7965,7 +7965,7 @@ base_local_planner/CMakeFiles/run_tests_base_local_planner.dir/all: base_local_p
 
 # Build rule for subdir invocation for target.
 base_local_planner/CMakeFiles/run_tests_base_local_planner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 base_local_planner/CMakeFiles/run_tests_base_local_planner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 0
 .PHONY : base_local_planner/CMakeFiles/run_tests_base_local_planner.dir/rule
@@ -8097,7 +8097,7 @@ base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest.dir/all: base_l
 
 # Build rule for subdir invocation for target.
 base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 0
 .PHONY : base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest.dir/rule
@@ -9584,7 +9584,7 @@ dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: base_local_planner/CMake
 dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: dwa_local_planner/CMakeFiles/dwa_local_planner_gencfg.dir/all
 	$(MAKE) -f dwa_local_planner/CMakeFiles/dwa_local_planner.dir/build.make dwa_local_planner/CMakeFiles/dwa_local_planner.dir/depend
 	$(MAKE) -f dwa_local_planner/CMakeFiles/dwa_local_planner.dir/build.make dwa_local_planner/CMakeFiles/dwa_local_planner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num=40 "Built target dwa_local_planner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num=39,40 "Built target dwa_local_planner"
 .PHONY : dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all
 
 # Include target in all.
@@ -9594,7 +9594,7 @@ all: dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all
 
 # Build rule for subdir invocation for target.
 dwa_local_planner/CMakeFiles/dwa_local_planner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 0
 .PHONY : dwa_local_planner/CMakeFiles/dwa_local_planner.dir/rule
@@ -10899,7 +10899,7 @@ global_planner/preinstall:
 global_planner/CMakeFiles/global_planner_gencfg.dir/all:
 	$(MAKE) -f global_planner/CMakeFiles/global_planner_gencfg.dir/build.make global_planner/CMakeFiles/global_planner_gencfg.dir/depend
 	$(MAKE) -f global_planner/CMakeFiles/global_planner_gencfg.dir/build.make global_planner/CMakeFiles/global_planner_gencfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num= "Built target global_planner_gencfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num=47 "Built target global_planner_gencfg"
 .PHONY : global_planner/CMakeFiles/global_planner_gencfg.dir/all
 
 # Include target in all.
@@ -10909,7 +10909,7 @@ all: global_planner/CMakeFiles/global_planner_gencfg.dir/all
 
 # Build rule for subdir invocation for target.
 global_planner/CMakeFiles/global_planner_gencfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 global_planner/CMakeFiles/global_planner_gencfg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 0
 .PHONY : global_planner/CMakeFiles/global_planner_gencfg.dir/rule
@@ -11018,7 +11018,7 @@ global_planner/CMakeFiles/global_planner.dir/all: navfn/CMakeFiles/navfn_generat
 global_planner/CMakeFiles/global_planner.dir/all: global_planner/CMakeFiles/global_planner_gencfg.dir/all
 	$(MAKE) -f global_planner/CMakeFiles/global_planner.dir/build.make global_planner/CMakeFiles/global_planner.dir/depend
 	$(MAKE) -f global_planner/CMakeFiles/global_planner.dir/build.make global_planner/CMakeFiles/global_planner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num=44,45,46,47 "Built target global_planner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num=44,45,46 "Built target global_planner"
 .PHONY : global_planner/CMakeFiles/global_planner.dir/all
 
 # Include target in all.
@@ -13072,7 +13072,7 @@ clean: teb_local_planner/CMakeFiles/teb_local_planner_genlisp.dir/clean
 teb_local_planner/CMakeFiles/teb_local_planner_gencfg.dir/all:
 	$(MAKE) -f teb_local_planner/CMakeFiles/teb_local_planner_gencfg.dir/build.make teb_local_planner/CMakeFiles/teb_local_planner_gencfg.dir/depend
 	$(MAKE) -f teb_local_planner/CMakeFiles/teb_local_planner_gencfg.dir/build.make teb_local_planner/CMakeFiles/teb_local_planner_gencfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num=87 "Built target teb_local_planner_gencfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num= "Built target teb_local_planner_gencfg"
 .PHONY : teb_local_planner/CMakeFiles/teb_local_planner_gencfg.dir/all
 
 # Include target in all.
@@ -13082,7 +13082,7 @@ all: teb_local_planner/CMakeFiles/teb_local_planner_gencfg.dir/all
 
 # Build rule for subdir invocation for target.
 teb_local_planner/CMakeFiles/teb_local_planner_gencfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 teb_local_planner/CMakeFiles/teb_local_planner_gencfg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Nav_ws/build/CMakeFiles 0
 .PHONY : teb_local_planner/CMakeFiles/teb_local_planner_gencfg.dir/rule
@@ -13152,7 +13152,7 @@ teb_local_planner/CMakeFiles/teb_local_planner.dir/all: teb_local_planner/CMakeF
 teb_local_planner/CMakeFiles/teb_local_planner.dir/all: teb_local_planner/CMakeFiles/teb_local_planner_gencfg.dir/all
 	$(MAKE) -f teb_local_planner/CMakeFiles/teb_local_planner.dir/build.make teb_local_planner/CMakeFiles/teb_local_planner.dir/depend
 	$(MAKE) -f teb_local_planner/CMakeFiles/teb_local_planner.dir/build.make teb_local_planner/CMakeFiles/teb_local_planner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num=83,84,85,86 "Built target teb_local_planner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Nav_ws/build/CMakeFiles --progress-num=83,84,85,86,87 "Built target teb_local_planner"
 .PHONY : teb_local_planner/CMakeFiles/teb_local_planner.dir/all
 
 # Include target in all.

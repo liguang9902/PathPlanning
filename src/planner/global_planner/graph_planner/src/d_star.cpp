@@ -9,7 +9,7 @@
  * Copyright (c) 2023, Zhanyu Guo
  * All rights reserved.
  * --------------------------------------------------------
- *
+ * ttttttt66666666
  **********************************************************/
 #include "d_star.h"
 
@@ -230,7 +230,7 @@ void DStar::extractExpand(std::vector<Node>& expand)
  */
 void DStar::extractPath(const Node& start, const Node& goal)
 {
-  DNodePtr node_ptr = map_[start.x_][start.y_];
+  DNodePtr node_ptr = map_[(int)start.x_][(int)start.y_];
   while (node_ptr->x_ != goal.x_ || node_ptr->y_ != goal.y_)
   {
     path_.push_back(*node_ptr);
@@ -300,8 +300,8 @@ bool DStar::plan(const unsigned char* gloal_costmap, const Node& start, const No
     reset();
     goal_ = goal;
 
-    DNodePtr start_ptr = map_[start.x_][start.y_];
-    DNodePtr goal_ptr = map_[goal.x_][goal.y_];
+    DNodePtr start_ptr = map_[(int)start.x_][(int)start.y_];
+    DNodePtr goal_ptr = map_[(int)goal.x_][(int)goal.y_];
 
     goal_ptr->g_ = 0;
     insert(goal_ptr, 0);
@@ -351,7 +351,7 @@ bool DStar::plan(const unsigned char* gloal_costmap, const Node& start, const No
     }
 
     // repair-replan
-    DNodePtr x = map_[state.x_][state.y_];
+    DNodePtr x = map_[(int)state.x_][(int)state.y_];
     while (1)
     {
       double k_min = processState();

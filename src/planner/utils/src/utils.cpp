@@ -75,6 +75,15 @@ bool Node::operator!=(const Node& n) const
   return !operator==(n);
 }
 
+ Node Node::operator*(const double& n) const
+ {
+  Node result;
+  result.x_ = x_ * n;
+  result.y_ = y_ * n;
+
+  return result;
+ }
+
 /**
  * @brief Construct a new Plane Node object
  * @param x   x value

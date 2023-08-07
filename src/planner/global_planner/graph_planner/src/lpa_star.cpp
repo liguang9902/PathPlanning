@@ -227,7 +227,7 @@ void LPAStar::computeShortestPath()
  */
 void LPAStar::extractPath(const Node& start, const Node& goal)
 {
-  LNodePtr node_ptr = map_[goal.x_][goal.y_];
+  LNodePtr node_ptr = map_[(int)goal.x_][(int)goal.y_];
   int count = 0;
   while (node_ptr->x_ != start.x_ || node_ptr->y_ != start.y_)
   {
@@ -304,8 +304,8 @@ bool LPAStar::plan(const unsigned char* gloal_costmap, const Node& start, const 
     reset();
     start_ = start;
     goal_ = goal;
-    start_ptr_ = map_[start.x_][start.y_];
-    goal_ptr_ = map_[goal.x_][goal.y_];
+    start_ptr_ = map_[(int)start.x_][(int)start.y_];
+    goal_ptr_ = map_[(int)goal.x_][(int)goal.y_];
 
     start_ptr_->rhs = 0.0;
     start_ptr_->key = calculateKey(start_ptr_);

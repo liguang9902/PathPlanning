@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/graph_planner.dir/src/d_star.cpp.o"
   "CMakeFiles/graph_planner.dir/src/lpa_star.cpp.o"
   "CMakeFiles/graph_planner.dir/src/d_star_lite.cpp.o"
+  "CMakeFiles/graph_planner.dir/src/BezierCurve.cpp.o"
   "/home/ubuntu/Nav_ws/devel/lib/libgraph_planner.pdb"
   "/home/ubuntu/Nav_ws/devel/lib/libgraph_planner.so"
 )

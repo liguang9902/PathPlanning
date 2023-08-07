@@ -26,7 +26,8 @@
                 "/usr/include/**",
                 "${workspaceFolder}/devel/include",
                 "${workspaceFolder}/src/planner/global_planner/graph_planner/include",
-                "${workspaceFolder}/src/planner/utils/include"
+                "${workspaceFolder}/src/planner/utils/include",
+                "/opt/ros/melodic/include"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

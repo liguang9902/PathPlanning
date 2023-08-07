@@ -239,7 +239,7 @@ void DStarLite::computeShortestPath()
  */
 void DStarLite::extractPath(const Node& start, const Node& goal)
 {
-  LNodePtr node_ptr = map_[start.x_][start.y_];
+  LNodePtr node_ptr = map_[(int)start.x_][(int)start.y_];
   int count = 0;
   while (node_ptr->x_ != goal.x_ || node_ptr->y_ != goal.y_)
   {
@@ -318,8 +318,8 @@ bool DStarLite::plan(const unsigned char* gloal_costmap, const Node& start, cons
     goal_ = goal;
     start_ = start;
 
-    start_ptr_ = map_[start.x_][start.y_];
-    goal_ptr_ = map_[goal.x_][goal.y_];
+    start_ptr_ = map_[(int)start.x_][(int)start.y_];
+    goal_ptr_ = map_[(int)goal.x_][(int)goal.y_];
     last_ptr_ = start_ptr_;
 
     goal_ptr_->rhs = 0.0;
@@ -340,7 +340,7 @@ bool DStarLite::plan(const unsigned char* gloal_costmap, const Node& start, cons
   else
   {
     start_ = start;
-    start_ptr_ = map_[start.x_][start.y_];
+    start_ptr_ = map_[(int)start.x_][(int)start.y_];
 
     for (int i = -WINDOW_SIZE / 2; i < WINDOW_SIZE / 2; i++)
     {

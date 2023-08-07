@@ -12,6 +12,7 @@
  *
  **********************************************************/
 #include "jump_point_search.h"
+#include "BezierCurve.h"
 
 namespace jps_planner
 {
@@ -72,6 +73,7 @@ bool JumpPointSearch::plan(const unsigned char* gloal_costmap, const Node& start
     {
       closed_list.insert(current);
       path = _convertClosedListToPath(closed_list, start, goal);
+      path = beziertest(path);
       return true;
     }
 

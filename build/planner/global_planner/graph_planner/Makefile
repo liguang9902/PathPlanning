@@ -182,6 +182,33 @@ graph_planner/fast:
 	cd /home/ubuntu/Nav_ws/build && $(MAKE) -f planner/global_planner/graph_planner/CMakeFiles/graph_planner.dir/build.make planner/global_planner/graph_planner/CMakeFiles/graph_planner.dir/build
 .PHONY : graph_planner/fast
 
+src/BezierCurve.o: src/BezierCurve.cpp.o
+
+.PHONY : src/BezierCurve.o
+
+# target to build an object file
+src/BezierCurve.cpp.o:
+	cd /home/ubuntu/Nav_ws/build && $(MAKE) -f planner/global_planner/graph_planner/CMakeFiles/graph_planner.dir/build.make planner/global_planner/graph_planner/CMakeFiles/graph_planner.dir/src/BezierCurve.cpp.o
+.PHONY : src/BezierCurve.cpp.o
+
+src/BezierCurve.i: src/BezierCurve.cpp.i
+
+.PHONY : src/BezierCurve.i
+
+# target to preprocess a source file
+src/BezierCurve.cpp.i:
+	cd /home/ubuntu/Nav_ws/build && $(MAKE) -f planner/global_planner/graph_planner/CMakeFiles/graph_planner.dir/build.make planner/global_planner/graph_planner/CMakeFiles/graph_planner.dir/src/BezierCurve.cpp.i
+.PHONY : src/BezierCurve.cpp.i
+
+src/BezierCurve.s: src/BezierCurve.cpp.s
+
+.PHONY : src/BezierCurve.s
+
+# target to generate assembly for a file
+src/BezierCurve.cpp.s:
+	cd /home/ubuntu/Nav_ws/build && $(MAKE) -f planner/global_planner/graph_planner/CMakeFiles/graph_planner.dir/build.make planner/global_planner/graph_planner/CMakeFiles/graph_planner.dir/src/BezierCurve.cpp.s
+.PHONY : src/BezierCurve.cpp.s
+
 src/a_star.o: src/a_star.cpp.o
 
 .PHONY : src/a_star.o
@@ -358,6 +385,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... install"
+	@echo "... src/BezierCurve.o"
+	@echo "... src/BezierCurve.i"
+	@echo "... src/BezierCurve.s"
 	@echo "... src/a_star.o"
 	@echo "... src/a_star.i"
 	@echo "... src/a_star.s"

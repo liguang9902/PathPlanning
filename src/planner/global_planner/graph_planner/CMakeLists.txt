@@ -32,6 +32,7 @@ add_library(${PROJECT_NAME}
   src/d_star.cpp
   src/lpa_star.cpp
   src/d_star_lite.cpp
+  src/BezierCurve.cpp
 )
 
 target_link_libraries(${PROJECT_NAME}
